@@ -1,0 +1,184 @@
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  max-height: 868px;
+}
+
+/* Info starts here */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1A1B21;
+  width: 50%;
+  margin: auto;
+  margin-top: 42px;
+  padding-bottom: 39px;
+  max-width: 317px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.info>.profileImage {
+  max-height: 317px;
+  max-width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+  max-width: 317px;
+}
+
+.profileContent>.profileName {
+  padding-top: 18px;
+  color: #FFFFFF;
+  font-size: 1.5625rem;
+  font-weight: 700;
+
+}
+
+.profileContent>.profileTitle {
+  padding-top: 8px;
+  color: #F3BF99;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.profileContent *.portfolioLink {
+  padding-top: 8px;
+  color: #F5F5F5;
+  font-size: 1rem;
+}
+
+.portfolioLink:hover {
+  color: #5093E2;
+  transition: 300ms;
+}
+
+.profileContent>.CTA {
+  padding-top: 15px;
+}
+
+.CTA *.btn {
+  margin-left: 17px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #374151;
+  padding: 12px 29px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+}
+
+.CTA *.btn:hover {
+  background-color: #5093E2;
+  color: white;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.envelope {
+  margin-right: 5px;
+}
+
+.btn.linkedIn>.linkedIn {
+  margin-right: 5px;
+  font-size: 1rem;
+
+}
+
+/* About section starts here */
+
+.about {
+  background-color: #1A1B21;
+  color: #F5F5F5;
+  padding: 0px 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  max-width: 317px;
+  line-height: 0.96rem;
+}
+
+.about>h1 {
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.about>p {
+  font-size: 0.75rem;
+}
+
+/* Interests start here */
+
+.interests {
+  background-color: #1A1B21;
+  color: #F5F5F5;
+  padding: 17px 29px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  max-width: 317px;
+  line-height: 0.96rem;
+}
+
+.interests>h1 {
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.interests>p {
+  font-size: 0.75rem;
+}
+
+/*Footer starts here */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #161619;
+  color: #918E9B;
+  max-width: 317px;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 19px;
+  font-size: 2rem;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer >* {
+  color:#918E9B;
+}
+
+.footer >*:hover {
+  color: #5093E2;
+  transform: scale(1.5);
+  transition: 600ms;
+}
+
+.footer> *:not(:last-child) {
+  margin-right: 19px;
+}
